@@ -11,15 +11,15 @@ from pathlib import Path
 # ================================
 
 # Bot Authentication (Get from @BotFather)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "your_bot_username")  # Without @
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7721980677:AAHalo2tzPZfBY4HJgMpYVflStxrbzfiMFg")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "@Fileprovider_robot")  # Without @
 
 # ================================
 # ADMIN CONFIGURATION
 # ================================
 
 # Primary admin (numeric Telegram user ID)
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8073033955"))
 
 # Secondary admin (username without @)
 ADDITIONAL_ADMIN = os.getenv("ADDITIONAL_ADMIN", "pb65walaa")
@@ -35,7 +35,7 @@ ADMIN_ROLES = {
 # ================================
 
 # Channel for auto-posting content
-CHANNEL_ID = os.getenv("CHANNEL_ID", "@your_channel_username")
+CHANNEL_ID = os.getenv("CHANNEL_ID", "@eighteenplusdrops")
 
 # Channel posting settings
 AUTO_POST_TO_CHANNEL = True
@@ -46,7 +46,7 @@ CHANNEL_POST_DELAY = 5  # seconds
 # ================================
 
 # UPI Payment Details
-UPI_ID = os.getenv("UPI_ID", "yourupi@upi")
+UPI_ID = os.getenv("UPI_ID", "arvindmanro4@okhdfcbank")
 PAYMENT_CURRENCY = "INR"
 
 # Token pricing (in INR)
