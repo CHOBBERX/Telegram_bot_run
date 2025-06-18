@@ -1,0 +1,33 @@
+# Core Telegram Bot Dependencies
+python-telegram-bot==20.7
+
+# Database and Storage
+sqlite3  # Usually included with Python
+
+# Standard Library (usually included)
+asyncio
+logging
+datetime
+urllib.parse
+hashlib
+json
+os
+re
+csv
+pathlib
+
+# Additional Production Dependencies
+typing-extensions>=4.0.0  # For enhanced type hints
+
+# Optional: For enhanced performance and monitoring
+# psutil>=5.9.0  # System monitoring
+# aiofiles>=0.8.0  # Async file operations
+
+# Development Dependencies (optional)
+# pytest>=7.0.0  # Testing framework
+# black>=22.0.0  # Code formatting
+# flake8>=4.0.0  # Code linting
+
+# Production Server Dependencies (optional)
+# gunicorn>=20.1.0  # WSGI server
+# supervisor>=4.2.0  # Process management
